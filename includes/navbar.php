@@ -20,10 +20,10 @@
           <a class="nav-link" href="publishQuestion.php">publication des questions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">mes questions</a>
+          <a class="nav-link" href="myQuestion.php">mes questions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Actions/User/deconnexion">se deconnecter</a>
+          <a class="nav-link" href="Actions/User/deconnexion.php">se deconnecter</a>
         </li>
        
       </ul>

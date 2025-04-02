@@ -43,6 +43,7 @@ include "includes/head.php";
             <input type="password" class="form-control" name="password" placeholder="mot de passe">
         </div>
          <button type="submit" class="btn btn-primary mt-4" name="click">s'inscrire</button>
+         <a href="connexion.php" class="">j'ai deja u compte? se connecter</a>
     </form>
 
    </div>

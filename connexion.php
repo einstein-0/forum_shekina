@@ -35,6 +35,7 @@ include "includes/head.php";
             <input type="password" class="form-control" name="password" placeholder="mot de passe">
         </div>
          <button type="submit" class="btn btn-primary mt-4" name="click">Se connecter</button>
+         <a href="Inscriptions.php">j'ain'est pas de compte? s'inscrire</a>
     </form>
 
    </div>

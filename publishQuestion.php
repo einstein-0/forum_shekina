@@ -18,6 +18,9 @@ include "includes/head.php";
      if(isset($errormsg))
      {
         echo "<p>".$errormsg."</p>";
+     }elseif(isset($successmsg)){
+
+         echo "<p>".$successmsg."</p>";
      }
     
     ?>
@@ -36,11 +39,6 @@ include "includes/head.php";
         <div class="form-group mt4">
             <label for="" class="form-label">contenu de la question</label>
             <textarea name="content"  class="form-control" id=""></textarea>
-        </div>
-
-        <div class="form-group mt-4">
-            <label for="" class="form-label">password</label>
-            <input type="password" class="form-control" name="password" placeholder="mot de passe">
         </div>
          <button type="submit" class="btn btn-primary mt-4" name="click">publier</button>
     </form>

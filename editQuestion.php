@@ -1,5 +1,5 @@
 <?php
- require("Actions/questions/editquestionAction.php");
+ require("Actions/questions/getInfoOfeditQuestion.php");
 
 ?>
 
@@ -22,22 +22,22 @@ include "includes/head.php";
     ?>
     
     <?php
-                if(isset($date_publication))
+                if(isset($content_question))
                 {
                     ?>
                         <form action="" method="POST">
                         
                             <div class="form-group mt-4">
                                 <label for="" class="form-label">Titre de la question</label>
-                                <input type="text" class="form-control" name="title" placeholder="" >
+                                <input type="text" class="form-control" name="title" value="<?=$title_question;?>" placeholder="" >
                             </div>
                             <div class="form-group mt-4">
                                 <label for="" class="form-label">descriptions de la question</label>
-                                <textarea name="description"  class="form-control" ></textarea>
+                                <textarea name="description"  class="form-control" ><?= $descript_question;?></textarea>
                             </div>
                             <div class="form-group mt-4"> 
                                 <label for="" class="form-label">contenu de la question</label>
-                                <textarea name="content" class="form-control" ></textarea>
+                                <textarea name="content" class="form-control" ><?=$content_question;?></textarea>
                             </div>
                         
                             <button type="submit" class=" mt-4 btn btn-primary" name="click">modifier la question</button>

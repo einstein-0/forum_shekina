@@ -30,7 +30,7 @@
                 $_SESSION["nom"]= $Userinfo["nom"];
                 $_SESSION["prenom"]= $Userinfo["prenom"];
            
-                header("location: index.php");
+                header("location: connexion.php");
         
         }else{
             $errormsg = "votre pseudo existe deja";

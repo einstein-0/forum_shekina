@@ -1,4 +1,5 @@
 <?php
+session_start();
 require("Actions/databases.php");
 if(isset($_GET["id"]) && !empty($_GET["id"]))
 {

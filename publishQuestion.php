@@ -40,7 +40,7 @@ include "includes/head.php";
             <label for="" class="form-label">contenu de la question</label>
             <textarea name="content"  class="form-control" id=""></textarea>
         </div>
-         <button type="submit" class="btn btn-primary mt-4" name="click">publier</button>
+         <button type="submit" class="btn btn-primary mt-4" name="click">publier la question</button>
     </form>
 
    </div>

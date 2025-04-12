@@ -1,5 +1,8 @@
 <?php
+// require("Actions/User/securityAction.php");
  require("Actions/questions/getInfoOfeditQuestion.php");
+ require("Actions/questions/editquestionAction.php");
+ 
 
 ?>
 

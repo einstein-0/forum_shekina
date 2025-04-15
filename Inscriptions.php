@@ -25,7 +25,7 @@ include "includes/head.php";
     <form action="" method="POST">
         <div class="form-group">
             <label for="" class="form-label">pseudo</label>
-            <input type="text" class="form-control" name="pseudo" placeholder="votre pseudo">
+            <input type="text" class="form-control text-primary" name="pseudo" placeholder="votre pseudo">
         </div>
 
         <div class="form-group mt-4">

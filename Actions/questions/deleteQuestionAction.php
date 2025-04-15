@@ -20,8 +20,8 @@ if(isset($_GET["id"]) && !empty($_GET["id"]))
     if($checkQuestionAlreadyexist->rowCount()>0)
     {
         //voir si l'utilisateur est l'auteur de la question de  suppression
-        $userInfos= $checkQuestionAlreadyexist->fetch();
-        if($userInfos["id_auteur"] == $_SESSION["id"])
+        $userQuestion= $checkQuestionAlreadyexist->fetch();
+        if($userQuestion["id_auteur"] == $_SESSION["id"])
         {
             $deleteQuestion = $conn->prepare("DELETE FROM questions WHERE id =?");
             $deleteQuestion->execute([$idOfQuestion]);

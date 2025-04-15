@@ -22,9 +22,18 @@
         <li class="nav-item">
           <a class="nav-link" href="myQuestion.php">mes questions</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Actions/User/deconnexion.php">se deconnecter</a>
-        </li>
+        <?php
+        if(isset($_SESSION["auth"]))
+        {
+          ?>
+             <li class="nav-item">
+                <a class="nav-link" href="Actions/User/deconnexion.php">se deconnecter</a>
+            </li>
+          <?php
+        }
+        
+        ?>
+     
        
       </ul>
    
